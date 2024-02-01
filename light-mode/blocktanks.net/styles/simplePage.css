@@ -1,0 +1,168 @@
+body {
+	padding: 0;
+	margin: 0;
+	background:white;
+	text-align: center;
+	font-family: "Roboto";
+	color: #222;
+	scroll-behavior: smooth;
+	transition:.3s ease-out;
+}
+
+h1 {
+	color: #666666;
+	font-size: 5vmin;
+	text-align: center;
+	padding:0px;
+	margin:0px;
+}
+
+p, h2 {
+	text-align:left;
+}
+
+img{
+	max-width:100%;
+}
+
+table {
+	text-align:left;
+	vertical-align:top;
+	width:85vmin;
+	padding:25px;
+	border: 1px solid --border;
+}
+
+.contentWrapper{
+	margin-top:8vmin;
+	vertical-align:top;
+	width:85vmin;
+	margin-top:8vmin;
+	padding:25px;
+	background:linear-gradient(180deg, white, #c8c8c8);
+	border:1px solid #555;
+	filter: drop-shadow(5px 5px 10px #222) drop-shadow(-5px -5px 10px #222);
+	transition:.5s ease-out;
+	
+}
+.error{
+	display:none;
+	width:90%;
+	background:var(--red-danger);
+	padding:15px;
+	margin:5px;
+	color:white;
+	text-align: center;
+	transition:.3s ease-out;
+}
+/*.error:hover{
+	background:var(--red-danger0);
+	color:#eee;
+	animation-name:gradient;
+	animation-duration:2s;
+	animation-timing-function:ease-out;
+	animation-iteration-count:1;
+}
+@keyframes gradient{
+    0% {
+		background:var(--red-danger);
+	}
+	10% {
+		background:linear-gradient(190deg, #d1333b ,#872127);
+	}
+	20% {
+		background:linear-gradient(200deg, #ba242c, #821f25);
+	}
+	30% {
+		background:linear-gradient(210deg, #ba2129, #7c1c22);
+	}
+	40% {
+		background:linear-gradient(220deg, #bd2830, #761a20);
+	}
+	50% {
+		background:linear-gradient(230deg, #b12229, #73191f);
+	}
+	60% {
+		background:linear-gradient(240deg, #b11f27, #71181e);
+	}
+	70% {
+		background:linear-gradient(250deg, #ae2528, #6f1b1b);
+	}
+	80% {
+		background:linear-gradient(260deg, #ac1e26, #6d1b20);
+	}
+	90% {
+		background:linear-gradient(265deg, #ac2a31, #6d1b20);
+	}
+	100%{
+		background:var(--red-danger0);
+	}
+}*/
+
+input, textarea, select{
+	font-family:"Roboto";
+	font-size:14px;
+}
+input, textarea{
+	width:85%;
+}
+textarea{
+	height:200px;
+	max-width:70vmin;
+	min-width:40vmin;
+}
+
+button{
+	font-size:20px;
+	transition:0.3s ease-out;
+	opacity:1;
+	background:linear-gradient(180deg, #345cd2, #203983);
+}
+button:hover{
+	background:linear-gradient(180deg, #2e51bb, #1d3275);
+}
+button:active{
+	background:linear-gradient(180deg, #1e367d, #162c69);
+}
+
+input[type=checkbox]{
+	width:auto;
+	vertical-align:middle;
+	transition:0.3s ease-out;
+}
+
+label{
+	display:inline-block;
+	cursor:pointer;
+	width:100%;
+	line-height:30px;
+}
+
+.invalid{
+	opacity:.5;
+	cursor:default;
+}
+
+bignumber{
+	font-size:30px;
+	display:block;
+	padding:3px;
+	margin:3px;
+}
+
+input[type="radio"]{
+	width:25px;
+}
+
+#footerAds{
+	width:100%;
+	border:none;
+	min-height:300px;
+	transition:0.3s ease-out;
+}
+
+#rectangle_3, #rectangle_4, #rectangle_5{
+	display:inline-block;
+	margin:10px;
+	transition:0.3s ease-out;
+}

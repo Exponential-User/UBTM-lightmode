@@ -1,0 +1,126 @@
+button {
+    cursor:pointer;
+    z-index:5;
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 30px;
+    background: var(--blue, #345cd2);
+    padding: 10px 20px 10px 20px;
+    margin:10px;
+    text-decoration: none;
+    border:none;
+    border-radius: 6px;
+    transition:0.3s ease-out;
+}
+
+button:hover {
+    background: var(--blue, #345cd2);
+}
+
+button:disabled {
+    opacity:0.5;
+    cursor:default;
+}
+
+.buttonPrimary{
+    background: var(--red, #e72b2b);
+    transition:0.3s ease-out;
+}
+
+.buttonPrimary:hover{
+    background: var(--red, #e72b2b);
+}
+
+.buttonSecondary {
+    background: var(--blue, #345cd2) !important;
+    transition:0.3s ease-out;
+}
+.buttonSecondary:hover{
+    background: var(--blue, #345cd2) !important;
+}
+
+.buttonNeutral {
+    background: #666666 !important;
+    transition:0.3s ease-out;
+}
+.buttonNeutral:hover{
+    background: #666666 !important;
+}
+
+.closeButton{
+    font-family:Verdana;
+    font-weight:700;
+    background:none;
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    right:10px;
+    top:10px;
+    width:50px;
+    height:50px;
+    border-radius:5px;
+    font-size:40px;
+    cursor:pointer;
+    color: var(--closeButton);
+    border:3px solid var(--closeButton);
+    transition:.2s;
+}
+.closeButton:hover,
+.closeButton:active {
+    background: var(--blue, #345cd2);
+    color:white;
+    border:3px solid var(--blue, #345cd2);
+}
+
+.vipLabel{
+    color:white;
+    background: var(--gold0, #edb01a);
+    display:inline-block;
+    padding:5px;
+    border-radius:5px;
+    transition:0.3s ease-out;
+}
+.vipLabel:hover{
+    font-style:italic;
+}
+
+.unselectedTab{
+    background: var(--unselectedTab-bg) !important;
+    color: var(--unselectedTab-color) !important;
+    cursor:pointer;
+    transition:0.3s ease-out;
+}
+
+.unselectedTab:hover{
+    color:#222 !important;
+    background:#eee !important;
+    cursor:pointer;
+}
+
+.selectedTab{
+    color:white;
+    background: var(--blue, #455ad3);
+}
+
+#signup-prompt button:focus,#forgot-prompt button:focus,#settings button:focus, #login-prompt button:focus, #appearanceChanger button:focus{
+    opacity:0.5;
+    cursor:normal;
+}
+
+#signUpButton, #logInButton{
+    background:#666666;
+}
+
+#feedback-nolt{
+    background: var(--gray);
+    color:white;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    border-radius:30px;
+    padding:5px 19px 2px 21px;
+    font-size:48px;
+    font-family: "Passion One";
+    z-index:10;
+    cursor:pointer;
+}

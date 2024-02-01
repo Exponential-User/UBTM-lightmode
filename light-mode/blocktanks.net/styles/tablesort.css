@@ -1,0 +1,49 @@
+.table-sortable {
+	table-layout: fixed;
+}
+
+.table-sortable .clickAble {
+	transition: .2s;
+}
+
+.table-sortable th:hover:not([static]),
+.table-sortable .clickAble:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+.table-sortable .th-sort-asc::after {
+	content: "\25b4";
+}
+
+.table-sortable .th-sort-desc::after {
+	content: "\25be";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+	margin-left: 5px;
+}
+
+.table-sortable {
+	border-spacing: 0;
+	border:none !important;
+	width: 100%;
+	padding:0px;
+}
+
+.table-sortable th,
+.table-sortable td {
+	text-align: left;
+	padding: 16px;
+	transition:.2s;
+}
+
+.table-sortable tbody tr:nth-child(odd) {
+	background: #eee
+}
+
+.table-sortable .th-sort-asc,
+.table-sortable .th-sort-desc {
+	background: rgba(0, 0, 0, 0.1);
+}

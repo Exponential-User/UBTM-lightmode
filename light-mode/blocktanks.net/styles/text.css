@@ -1,0 +1,100 @@
+/* Used for any rules describing appearance of text */
+.whiteTextShadow{
+    text-shadow: 1px 1px 0px #d0d0d0,-1px 1px 0px #dcdcdc, 1px -1px 0px #eee, -1px -1px 0px #e4e4e4, 0px 0px 10px #000;
+}
+
+.vipText{
+	transition:0.6s ease-out;
+    text-shadow: 1px 1px 0px #e4b341,-1px 1px 0px #e0b040, 1px -1px 0px #fac13c, -1px -1px 0px #f0b835, 0px 0px 10px #000;
+    color:#222;
+    margin:5px;
+}
+.vipText:hover{
+	color:#323232;
+	text-decoration:underline;
+	text-decoration-color: linear-gradient(90deg, #ffc949, #a5822f);
+}
+.link{
+    cursor:pointer;
+    text-decoration:none;
+	transition:0.3s ease-out;
+}
+.link:hover{
+    text-decoration:underline;
+}
+.textLink{
+    display:inline-block;
+    text-decoration:underline;
+    color:var(--textLink);
+    cursor:pointer;
+    margin-left:25px;
+}
+
+.hidden-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1{
+    font-weight:normal;
+    text-align:center;
+    font-size:50px;
+    margin:8px;
+}
+
+#announcement h1{
+    font-size:28px;
+    margin:-50px 0px 5px 0px;
+}
+#announcement h1,h2{
+    margin:5px;
+}
+#announcement p{
+    margin:10px;
+    text-align:left;
+    line-height:25px;
+}
+#links{
+	width:100%;
+	padding-top:1vmin;
+    padding-bottom:1vmin;
+    text-align:center;
+	font-family:"Roboto";
+	border-bottom:none;
+}
+#links a{
+	margin:0px;
+	padding:0px 20px 0px 20px;
+	text-align:center;
+	cursor:pointer;
+	text-decoration:none;
+	color: var(--links-a);
+	font-size:2vmin;
+	transition:0.3s ease-out;
+
+}
+
+#links a:hover{
+    text-decoration:underline;
+}
+
+.preserve-whitespace {
+	white-space: pre;
+}
+
+.goodMessage{
+    background:var(--green);
+    color:white;
+    text-align:center;
+    padding:10px;
+    margin:0px 15px;
+    border-radius:5px;
+    display:none;
+}
+
+.serverMessage {
+	--shadow-color: #62bbff;
+	text-shadow: 1px 1px 0px var(--shadow-color), -1px 1px 0px var(--shadow-color), 1px -1px 0px var(--shadow-color), -1px -1px 0px var(--shadow-color), 0px 0px 10px #000;
+	color: #222;
+	margin: 5px;
+}

@@ -1,0 +1,61 @@
+.killfeed {
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Source Code Pro';
+    font-weight: 800;
+    font-size: 20px
+}
+
+.killfeed>div {
+    border-radius: 0.3rem;
+    flex-direction: row;
+    display: flex;
+    column-gap: 0.5rem;
+    align-items: center;
+    background-image: linear-gradient(45deg, rgb(20 28 132 / 50%), rgb(70 108 135 / 50%));
+    padding: 0.1rem 0.6rem;
+    width: fit-content;
+    height: 1.9rem;
+    margin: 0.2rem 0;
+    margin-left: auto;
+    overflow: hidden;
+
+    transition-duration: 1s;
+    transition-behavior: cubic-bezier(0.4, 0, 1, 1);
+    opacity: 0;
+}
+
+.killfeed>div.visible {
+    opacity: 1;
+}
+
+.killfeed>div.hidden {
+    opacity: 0;
+    height: 0vmin;
+    margin: 0 0;
+    margin-left: auto;
+    padding: 0rem 0.6rem;
+}
+
+.killfeed>div.killfeed-important {
+    background-image: linear-gradient(45deg, rgb(204 0 85 / 70%), rgb(0 132 210 / 70%));
+} 
+
+.killfeed img {
+    display: inline;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.killfeed img.flipped {
+    /* Flip the image so it makes more sense */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.killfeed img.chromefix {
+    /* Necessary if on Chrome because otherwise .PNG downscaling looks blurry */
+    image-rendering: -webkit-optimize-contrast;
+}

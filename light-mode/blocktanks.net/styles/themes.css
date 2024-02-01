@@ -1,0 +1,109 @@
+/* Themes & Colors */
+:root {
+    --white: #ffffff;
+    --white0: #eeeeee;
+    --white1: #dddddd;
+    --white2: linear-gradient(270deg, #eeeeee, #cccccc);
+    --white3: linear-gradient(90deg, #eeeeee, #cccccc);
+    --gray-transparent0: #ffffffbf; /* AccountInfoContents */
+    --gray: #3A3A3A;
+    --gray0: #cccccc;
+    --gray1: #aaaaaa; /* Borders */
+    --gray2: #999999;
+    --gray3: #666666;
+    --gray4: #444444;
+    --gray5: #222222;
+    --gray6: #bbbbbb;
+    --gray7: linear-gradient(180deg,#444,#777);
+    --red: #e72b2b; /* Main Red */
+    --red0: #ff99a5;
+    --red-danger: linear-gradient(180deg, #d1333b ,#872127); /* Standard */
+    --red-danger0: linear-gradient(270deg, #ba2e35, #6d1b20); /* Hover effect */
+    --purple: #b136d6;
+    --purple0: linear-gradient(180deg,#b136d6,##952eb4);
+    --gold: #CE9918; /* Main Gold - VIP */
+    --gold0: #EDB01A; /* Light Gold - Used for hover effects, etc */
+    --gold1: linear-gradient(45deg, #b68814, #fac422); /* Unused */
+    --gold2: linear-gradient(45deg, #d19c17, #ffcb46); /* Unused */
+    --black: #000000;
+    --blue: #345cd2; /* Main Blue */
+    --blue0: #0000ee; /* Default Hyperlink Color */
+    --blue1: #455ad3; /* Old Dark Blue */
+    --blue2: #3b65e0; /* Light Blue - Used for hover effects, etc */
+    --blue3: #d6daff;
+    --green: #60a37d;  /* Used for good/success messages */
+    --green0: #a8ffad;
+    --border: linear-gradient(45deg,#ddd,#444);
+}
+
+.light {
+    /* color-scheme: light; */
+    --closeButton: var(--gray4);
+    --unselectedTab-bg: var(--gray0);
+    --unselectedTab-color: var(--gray3);
+    --teamTable-tr: var(--gray6);
+    --teamTable-tr2: var(--gray0);
+    --scoreboard-bg: var(--white);
+    --scoreboard-border: var(--gray3);
+    --scoreboard-color: var(--black);
+    --fancyBlueCheckbox: var(--gray4);
+    --controlInput-bg: var(--white1);
+    --controlInput-color: var(--gray5);
+    --selectableLabel: var(--black);
+    --stats-leaderboard-table-content-tr1: var(--white2);
+    --stats-leaderboard-table-content-tr2: var(--white3);
+    --matchPromptContents: var(--gray4);
+    --matchPromptHeaders: var(--gray4);
+    --settings-bg: var(--white);
+    --settings-color: var(--black);
+    --settings-email-bg: var(--gray0);
+    --settings-email-color: var(--black);
+    --stats-leaderboard-color: var(--gray5);
+    --stats-leaderboard-bg: var(--white0);
+    --stats-leaderboard-a: var(--blue0);
+    --matchPrompt-bg: var(--white0);
+    --matchPrompt-color: var(--black);
+    --mapGrid: var(--gray0);
+    --textLink: var(--blue);
+    --links-a: var(--gray5);
+    --sidebar-bg: var(--white);
+    --sidebar-color: var(--gray5);
+    --sidebar-section-border: var(--gray0);
+    --playerinfo-color: var(--black);
+}
+
+.dark {
+    /* color-scheme: dark; */
+    --closeButton: var(--white);
+    --unselectedTab-bg: var(--gray3);
+    --unselectedTab-color: var(--white);
+    --teamTable-tr: var(--gray3);
+    --teamTable-tr2: var(--gray2);
+    --scoreboard-bg: var(--gray4);
+    --scoreboard-border: var(--gray5);
+    --scoreboard-color: var(--white);
+    --fancyBlueCheckbox: var(--white);
+    --controlInput-bg: var(--gray3);
+    --controlInput-color: var(--white);
+    --selectableLabel: var(--white);
+    --stats-leaderboard-table-content-tr1: var(--gray4);
+    --stats-leaderboard-table-content-tr2: var(--gray3);
+    --matchPromptContents: var(--white);
+    --matchPromptHeaders: var(--white);
+    --settings-bg: var(--gray4);
+    --settings-color: var(--white);
+    --settings-email-bg: var(--gray3);
+    --settings-email-color: var(--white);
+    --stats-leaderboard-color: var(--white);
+    --stats-leaderboard-bg: var(--gray4);
+    --stats-leaderboard-a: var(--white);
+    --matchPrompt-bg: var(--gray4);
+    --matchPrompt-color: var(--white);
+    --mapGrid: var(--gray3);
+    --textLink: var(--white);
+    --links-a: var(--white);
+    --sidebar-bg: var(--gray4);
+    --sidebar-color: var(--white);
+    --sidebar-section-border: var(--white);
+    --playerinfo-color: var(--white);
+}

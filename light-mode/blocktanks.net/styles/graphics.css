@@ -1,0 +1,60 @@
+.loadingTank{
+	animation-name: spin;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+		/*filter: drop-shadow(0.5px 0.5px 0.5px #9bbbc5) drop-shadow(-7.5px -7.5px 2px #5d7f92);*/
+	}
+	25% {
+		transform: rotate(90deg) scale(.75);
+		/*filter: drop-shadow(12.5px 12.5px 7.5px #9bbbc5) drop-shadow(-7.5px -7.5px 2px #5d7f92);*/
+	}
+	50% {
+		transform: rotate(180deg) scale(.5);
+		/*filter: drop-shadow(12.5px 12.5px 7.5px #9bbbc5) drop-shadow(-7.5px -7.5px 2px #5d7f92);*/
+	}
+	75% {
+		transform: rotate(270deg) scale(.75);
+		/*filter: drop-shadow(12.5px 12.5px 7.5px #9bbbc5) drop-shadow(-7.5px -7.5px 2px #5d7f92);*/
+	}
+	100%{
+		transform: rotate(360deg);
+		/*filter: drop-shadow(12.5px 12.5px 7.5px #9bbbc5) drop-shadow(-7.5px -7.5px 2px #5d7f92);*/
+	}
+}
+
+.iconContainer{
+	position:relative;
+	cursor:pointer;
+}
+
+.iconNeutral{
+	width:5vmin;
+	height:5vmin;
+    cursor:pointer;
+    overflow:hidden;
+    border-radius:8px;
+    display:inline-block;
+}
+.iconNeutral img{
+    transform:scale(1.25);
+}
+
+.badge {
+	display: inline-block;
+	text-align: center;
+	font-size: .8em;
+	background-color: var(--red);
+	color: white;
+	border-radius: .25em;
+	padding: .2em;
+	margin-left: .1em;
+	vertical-align: middle;
+	min-width: 1.2em;
+}
