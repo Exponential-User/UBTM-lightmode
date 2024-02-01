@@ -15,9 +15,9 @@ These are just Changes, There are something special like the shadows and transti
 
 ---
 
-## If the Owner of Blocktanks or Karate Fox Studios Don't want this:
+## If the Owner of Blocktanks or Karate Fox Studios Does not want this:
 DM me on discord: exponentialuser (#4457)
-So i can take the mod off.
+So i can take the mod off of github.
 
 * just to let you know this is version 0.1.0
 
