@@ -21,7 +21,7 @@ So i can take the mod off of github.
 
 * just to let you know this is version 0.1.0
 
-# IMPORTANT!! : This only works on the .Net not .io
+# IMPORTANT!! : This only works on .Net not .io
 * I'll make it work, But I'll focus on this for now, [Bloacktanks.net](https://blocktanks.io "Blocktanks.net")
 * I'll make a separate Repo for the .io soon or later, I don't know but we'll see.
 
