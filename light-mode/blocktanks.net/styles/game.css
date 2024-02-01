@@ -29,26 +29,32 @@
 @keyframes wiggle2{
     0% {
 		transform: rotate(-3deg);
+		cursor:wait;
 		/*filter: drop-shadow(0.5px 0.5px 0.5px #9bbbc5) drop-shadow(-7.5px -7.5px 2px #5d7f92);*/
 	}
 	25% {
 		transform: rotate(3deg);
+		cursor:wait;
 		/*filter: drop-shadow(12.5px 12.5px 7.5px #9bbbc5) drop-shadow(-7.5px -7.5px 2px #5d7f92);*/
 	}
 	50% {
 		transform: rotate(-1deg);
+		cursor:wait;
 		/*filter: drop-shadow(12.5px 12.5px 7.5px #9bbbc5) drop-shadow(-7.5px -7.5px 2px #5d7f92);*/
 	}
 	75% {
 		transform: rotate(1deg);
+		cursor:wait;
 		/*filter: drop-shadow(12.5px 12.5px 7.5px #9bbbc5) drop-shadow(-7.5px -7.5px 2px #5d7f92);*/
 	}
 	100%{
 		transform: rotate(0deg);
+		cursor:wait;
 		/*filter: drop-shadow(12.5px 12.5px 7.5px #9bbbc5) drop-shadow(-7.5px -7.5px 2px #5d7f92);*/
 	}
 }
 #respawn_button:active{
+	cursor:progress;
 	margin-top:5px;
 	margin-bottom:0px;
 	background:linear-gradient(45deg,#903d3d,#950909);

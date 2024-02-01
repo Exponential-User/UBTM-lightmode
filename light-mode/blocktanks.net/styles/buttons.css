@@ -89,17 +89,20 @@ button:disabled {
     color: var(--unselectedTab-color) !important;
     cursor:pointer;
     transition:0.3s ease-out;
+
 }
 
 .unselectedTab:hover{
     color:#222 !important;
     background:#eee !important;
     cursor:pointer;
+    filter:drop-shadow(0.9px 0.9px 4px #bbb) drop-shadow(-0.9px -0.9px 9px #bbb);
 }
 
 .selectedTab{
     color:white;
     background: var(--blue, #455ad3);
+    filter:drop-shadow(1px 1px 5px #4154c6) drop-shadow(-1px -1px 10px #4154c6);
 }
 
 #signup-prompt button:focus,#forgot-prompt button:focus,#settings button:focus, #login-prompt button:focus, #appearanceChanger button:focus{
@@ -108,7 +111,7 @@ button:disabled {
 }
 
 #signUpButton, #logInButton{
-    background:#666666;
+    background:linear-gradient(180deg, #666, #444);
 }
 
 #feedback-nolt{

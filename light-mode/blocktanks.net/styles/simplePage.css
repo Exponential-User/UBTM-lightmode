@@ -20,9 +20,23 @@ h1 {
 p, h2 {
 	text-align:left;
 }
-
+#clanStats p {
+	transition:.3s ease-out;
+	filter:drop-shadow(1px 1px 7.5px #888) drop-shadow(-1px -1px 5px #888);
+}
+#clanStats:hover p {
+	filter:drop-shadow(2px 2px 10px #888) drop-shadow(-2px -2px 7.5px #888);
+}
 img{
+	transition:.3s ease-out;
 	max-width:100%;
+	filter:drop-shadow(1px 1px 7.5px #888) drop-shadow(-1px -1px 5px #888);
+}
+img:hover{
+	filter:drop-shadow(1px 1px 7.5px #666) drop-shadow(-1px -1px 5px #666);
+}
+#messages{
+	cursor:s-resize;
 }
 
 table {
@@ -120,9 +134,11 @@ button{
 }
 button:hover{
 	background:linear-gradient(180deg, #2e51bb, #1d3275);
+	filter:drop-shadow(1px 1px 7.5px #2a4aac) drop-shadow(-1px -1px 5px #192c66);
 }
 button:active{
 	background:linear-gradient(180deg, #1e367d, #162c69);
+	filter:drop-shadow(0.5px 0.5px 5px #2a49a9) drop-shadow(-0.5px -0.5px 3.5px #17295f);
 }
 
 input[type=checkbox]{
