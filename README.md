@@ -22,7 +22,7 @@ So i can take the mod off.
 * just to let you know this is version 0.1.0
 
 # IMPORTANT!! : This only works on the .Net version not .io
-* I'll make it work, But I'll focus on this for now, [Bloacktanks.net](https://www.google.com "Blocktanks.net")
+* I'll make it work, But I'll focus on this for now, [Bloacktanks.net](https://blocktanks.io "Blocktanks.net")
 
 > The Ratings are just my Opinions, You can rate it whetever you want. 
 
