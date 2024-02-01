@@ -33,7 +33,7 @@ So i can take the mod off.
 | Kill Feed                         | Color                          |  8/10   |
 | Some Text                         | UnderlineColor, Tilt, Font     |  5/10   |
 | CP arrow and border               | Gradients, Resize              |  7/10   |
-| Messages like collected something | A-bit-Funny, buttons           |  8/10   |
+| Messages                          | A-bit-Funny, buttons           |  8/10   |
 | Switching weapons And text        | Transition, hover, underline   |  8/10   |
 | Pages                             | Shadows, Gradients             |  8/10   |
 | Leaderboard                       | Gradients, Shadows, Transition |  7/10   |
