@@ -117,7 +117,7 @@ select,option{
     cursor:pointer;
     transition:.25s ease-out;
     display:inline-block;
-	filter:drop-shadow(.5px .5px 4px #555) drop-shadow(-.5px -.5px 4px #555);
+    filter:drop-shadow(.5px .5px 4px #555) drop-shadow(-.5px -.5px 4px #555);
 }
 
 .fancyBlueCheckbox input:checked + label{
@@ -126,7 +126,7 @@ select,option{
     border-color: var(--blue, #345cd2);
     background: var(--blue, #345cd2);
     color:white !important;
-	filter:drop-shadow(1px 1px 5px #345cd2) drop-shadow(-1px -1px 5px #345cd2);
+    filter:drop-shadow(1px 1px 5px #345cd2) drop-shadow(-1px -1px 5px #345cd2);
 }
 
 .fancyRedCheckbox label{
@@ -140,7 +140,7 @@ select,option{
     cursor:pointer;
     transition:.25s ease-out;
     display:inline-block;
-	filter:drop-shadow(.5px .5px 4px #555) drop-shadow(-.5px -.5px 4px #555);
+    filter:drop-shadow(.5px .5px 4px #555) drop-shadow(-.5px -.5px 4px #555);
 }
 
 .fancyRedCheckbox input:checked + label{
@@ -149,7 +149,7 @@ select,option{
     border-color: var(--red, #e72b2b);
     background: var(--red, #e72b2b);
     color:white !important;
-	filter:drop-shadow(1px 1px 5px #e72b2b) drop-shadow(-1px -1px 5px #e72b2b);
+    filter:drop-shadow(1px 1px 5px #e72b2b) drop-shadow(-1px -1px 5px #e72b2b);
 }
 
 .slider {
