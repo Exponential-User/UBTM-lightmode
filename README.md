@@ -36,6 +36,7 @@ So i can take the mod off of github.
 | Switching weapons And text        | Transition, hover, underline   |  8/10   |
 | Pages                             | Shadows, Gradients             |  8/10   |
 | Leaderboard                       | Gradients, Shadows, Transition |  7/10   |
+| Some Create-match buttons         | Shadows, Transitions           |  7/10   |
 
 * My friend Rated this a **9/10**
 * I rated this a **7-8/10**
