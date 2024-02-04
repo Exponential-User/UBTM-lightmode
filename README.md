@@ -11,7 +11,7 @@ If you want to insert it, Follow the instructions included with the file named *
 These are just Changes, There are something special like the shadows and transtions.
 
 
-- The Dark Mode mod is buggy, I'll find a fix for it soon or later.
+- The Dark Mode mod is buggy, I'll find a fix for it soon or later. (Dark Mode is only for VIP members of blacktanks)
 
 ---
 
