@@ -24,16 +24,21 @@ button:disabled {
 
 .buttonPrimary{
     background: var(--red, #e72b2b);
+    filter:none;
     transition:0.3s ease-out;
+}
+.buttonPrimary.invalidButton:hover{
+    filter:drop-shadow(1px 1px 5px #999) drop-shadow(-1px -1px 5px #999);
 }
 
 .buttonPrimary:hover{
-    background: var(--red, #e72b2b);
+    background: linear-gradient(180deg, #e72b2b, #d22727);
     filter: drop-shadow(2px 2px 5px #e72b2b) drop-shadow(-2px -2px 5px #e72b2b);
 }
 
 .buttonSecondary {
     background: var(--blue, #345cd2) !important;
+    filter:none;
     transition:0.3s ease-out;
 }
 .buttonSecondary:hover{
@@ -42,11 +47,12 @@ button:disabled {
 }
 
 .buttonNeutral {
-    background: #666666 !important;
+    background: linear-gradient(180deg, #777, #999) !important;
     transition:0.3s ease-out;
 }
 .buttonNeutral:hover{
-    background: #666666 !important;
+    background: linear-gradient(180deg, #666, #888) !important;
+    filter:drop-shadow(1px 1px 5px #666) drop-shadow(-1px -1px 5px #666)
 }
 
 .closeButton{
@@ -70,9 +76,9 @@ button:disabled {
 }
 .closeButton:hover,
 .closeButton:active {
-    background: var(--blue, #345cd2);
+    background: linear-gradient(180deg, #345cd2, #2e51b9); /*var(--blue, ---);*/
     color:white;
-    border:3px solid var(--blue, #345cd2);
+    border:3px dashed var(--blue, #345cd2); /*var(--blue, ---)*/
 }
 
 .vipLabel{
@@ -84,7 +90,7 @@ button:disabled {
     transition:0.3s ease-out;
 }
 .vipLabel:hover{
-    font-style:italic;
+    font-style:italic; /* Unknown? */
 }
 
 .unselectedTab{
