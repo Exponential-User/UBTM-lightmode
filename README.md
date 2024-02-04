@@ -1,6 +1,8 @@
 # UBTM-lightmode
 A mod made for a web game, Included with this mod is JavaScript, CSS and Payload/CTF image changes.
 
+* This mod is unofficial
+
 <h1>Welcome to the Blocktank mod (Light Mode)</h1>
 <img src="https://blocktanks.net/assets/Tank%20Icon.png" alt="logo" width="100"/>
 
