@@ -1,4 +1,4 @@
-ver = '0.1.1'
+ver = '0.1-beta.1'
 modName = ' Unofficial Blocktanks Mod, '
 modName0 = ' Unofficial Blocktanks Mod.'
 function specialLog(name, suffix, vip, serverMessage = false) {
