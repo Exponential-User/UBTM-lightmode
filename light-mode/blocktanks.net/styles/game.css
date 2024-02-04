@@ -560,7 +560,9 @@
     opacity:0.8;
     filter: drop-shadow(10px 10px 5px #812222) drop-shadow(-5px -5px 2px #c93535);
 }
-#kill_screen #bluekills_container #clockBox #redkills_container:hover{
+#kill_screen #bluekills_container:hover,
+#kill_screen #clockBox:hover,
+#kill_screen #redkills_container:hover{
     opacity:1;
 }
 #kill_screen #tanksAlive {
