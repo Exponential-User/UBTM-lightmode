@@ -388,9 +388,14 @@
   border: 3px solid #b7b7b7;
   border-radius: 8px / 3px;
   font: normal 15px/normal Arial, Helvetica, sans-serif;
-  color: rgba(107,107,107,1);
+  color: #6b6b6b;
+  transition:.3s ease-out;
   padding:0;
   width:95%;
+}
+#chat_type:hover{
+	filter:drop-shadow(1px 1px 5px #6b6b6b) drop-shadow(-1px -1px 5px #6b6b6b);
+	width:27.5vmin;
 }
 /* Flashbang Effect */
 #whiteness {
@@ -514,22 +519,40 @@
     transition:0.3s ease-out;
     opacity:0.8;
 }
-#kill_screen #bluekills_container:hover {
-    opacity:1;
-}
 #kill_screen #clockBox {
-    background:linear-gradient(90deg, #345cd2, #444, #e72b2b);
-    padding:8px;
-    color:white;
-    width:100px;
-    transition:.7s ease-out;
-    opacity:0.8;
-    text-rendering:auto;
+    background: linear-gradient(45deg, #345cd2, #444, #e72b2b);
+    padding: 8px;
+    color: white;
+    width: 100px;
+    z-index: 1;
+    opacity: 0.8;
+    text-rendering: auto;
+	transition:.4s ease-out;
+    position: relative; /* Add position relative for the ::after pseudo-element */
 }
-#kill_screen #clockBox:hover {
-    background:linear-gradient(45deg, #345cd2, #444, #e72b2b);
-    opacity:1;
+
+#kill_screen #clockBox::after {
+    content: ""; /* Add content property for pseudo-elements */
+    position: absolute; /* Position absolutely within the parent */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	z-index:0;
+    background: linear-gradient(90deg, #345cd2, #444, #e72b2b);
+    padding: 8px;
+	text-anchor:absolute;
+    color: white;
+	z-index:-1;
+    width: 87%;
+    transition: opacity 0.4s ease-out;
+    opacity: 0;
+    text-rendering: auto;
 }
+#kill_screen #clockBox:hover::after {
+    opacity: 1;
+}
+
 #kill_screen #redkills_container {
     background: linear-gradient(-90deg, #a51f1f, #e72b2b);
     width:90px;
@@ -537,7 +560,7 @@
     opacity:0.8;
     filter: drop-shadow(10px 10px 5px #812222) drop-shadow(-5px -5px 2px #c93535);
 }
-#kill_screen #redkills_container:hover {
+#kill_screen #bluekills_container #clockBox #redkills_container:hover{
     opacity:1;
 }
 #kill_screen #tanksAlive {
