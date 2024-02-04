@@ -1,0 +1,235 @@
+input{
+    user-select:text;
+    user-drag:text; /* Unknown CSS Property */
+    font-family:"roboto";
+    font-size:16px;
+}
+
+select,option{
+    color:#444 !important;
+    background:white;
+    font-size:22px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 26px;
+  color:#222;
+  font-weight:bold;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #ce9918;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.fancyCheckbox, .fancyBlueCheckbox, .fancyRedCheckbox{
+    display:inline-block;
+}
+.fancyCheckbox input, .fancyBlueCheckbox input, .fancyRedCheckbox input{
+    display:none;
+}
+.fancyCheckbox label{
+    color:#222;
+    font-size:18px;
+    font-weight:400;
+    border-radius:5px;
+    border:2px solid #ce9918;
+    padding:5px;
+    margin:5px;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.fancyCheckbox input:checked + label{
+    padding:8px 12px 8px 12px;
+    border-color:#ce9918;
+    background:#ce9918;
+    color:white;
+}
+
+.fancyBlueCheckbox label{
+    color: var(--fancyBlueCheckbox) !important;
+    font-size:2vmin;
+    font-weight:400;
+    border-radius:5px;
+    border:2px dashed var(--fancyBlueCheckbox);
+    padding:.5vmin .4vmin .5vmin .4vmin;
+    margin:.5vmin 1.0vmin .5vmin 1.0vmin;
+    cursor:pointer;
+    transition:.25s ease-out;
+    display:inline-block;
+	filter:drop-shadow(.5px .5px 4px #555) drop-shadow(-.5px -.5px 4px #555);
+}
+
+.fancyBlueCheckbox input:checked + label{
+    padding:.5vmin 1vmin .5vmin 1vmin;
+    margin:.5vmin .4vmin .5vmin .4vmin;
+    border-color: var(--blue, #345cd2);
+    background: var(--blue, #345cd2);
+    color:white !important;
+	filter:drop-shadow(1px 1px 5px #345cd2) drop-shadow(-1px -1px 5px #345cd2);
+}
+
+.fancyRedCheckbox label{
+    color:#444 !important;
+    font-size:2vmin;
+    font-weight:400;
+    border-radius:5px;
+    border:2px dashed #444;
+    padding:.5vmin .4vmin .5vmin .4vmin;
+    margin:.5vmin 1.0vmin .5vmin 1.0vmin;
+    cursor:pointer;
+    transition:.25s ease-out;
+    display:inline-block;
+	filter:drop-shadow(.5px .5px 4px #555) drop-shadow(-.5px -.5px 4px #555);
+}
+
+.fancyRedCheckbox input:checked + label{
+    padding:.5vmin 1vmin .5vmin 1vmin;
+    margin:.5vmin .4vmin .5vmin .4vmin;
+    border-color: var(--red, #e72b2b);
+    background: var(--red, #e72b2b);
+    color:white !important;
+	filter:drop-shadow(1px 1px 5px #e72b2b) drop-shadow(-1px -1px 5px #e72b2b);
+}
+
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 99%; /* Full-width */
+  min-width:100px;
+  height: 18px; /* Specified height */
+  background: #bbbbbb; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+.restrictedSlider{
+  max-width:33%;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 24px; /* Set a specific slider handle width */
+  height: 24px; /* Slider handle height */
+  background: var(--blue, #345cd2); /* Blue background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 24px; /* Set a specific slider handle width */
+  height: 24px; /* Slider handle height */
+  background: var(--blue, #345cd2); /* Blue background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.controlInput{
+    border:1px solid #aaaaaa;
+    background:var(--controlInput-bg);
+    padding:5px;
+    color:var(--controlInput-color);
+    text-align:center;
+    width:75px;
+    margin-left:10px;
+    display:inline-block;
+    transition:.2s;
+}
+
+.controlInput:hover{
+    width:95px;
+    margin-left:0px;
+}
+
+.controlInput:focus{
+    width:95px;
+    border-radius:5px;
+    background: var(--blue, #345cd2);
+    color:white;
+    margin-left:0px;
+}
+
+.controlLabel{
+    display:inline-block;
+    width:100px;
+}
+
+[data-characters-remaining] {
+	position: relative;
+	vertical-align: bottom;
+}
+[data-characters-remaining] > span {
+	font-size: 0.8rem;
+	position: absolute;
+	top: 1.2rem;
+	right: 0.2rem;
+	opacity: 0.8;
+	width: max-content;
+}
