@@ -29,6 +29,7 @@ button:disabled {
 
 .buttonPrimary:hover{
     background: var(--red, #e72b2b);
+    filter: drop-shadow(2px 2px 5px #e72b2b) drop-shadow(-2px -2px 5px #e72b2b);
 }
 
 .buttonSecondary {
@@ -37,6 +38,7 @@ button:disabled {
 }
 .buttonSecondary:hover{
     background: var(--blue, #345cd2) !important;
+    filter: drop-shadow(2px 2px 5px #345cd2) drop-shadow(-2px -2px 5px #345cd2);
 }
 
 .buttonNeutral {
@@ -64,6 +66,7 @@ button:disabled {
     color: var(--closeButton);
     border:3px solid var(--closeButton);
     transition:.2s;
+	/*filter: drop-shadow(0.5px 0.5px 2.5px #444) drop-shadow(-0.5px -0.5px 2.5 #444);*/
 }
 .closeButton:hover,
 .closeButton:active {
