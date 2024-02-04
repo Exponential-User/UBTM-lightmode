@@ -20,7 +20,7 @@
     --red-danger: linear-gradient(180deg, #d1333b ,#872127); /* Standard */
     --red-danger0: linear-gradient(270deg, #ba2e35, #6d1b20); /* Hover effect */
     --purple: #b136d6;
-    --purple0: linear-gradient(180deg,#b136d6,##952eb4);
+    --purple0: linear-gradient(180deg,#b136d6,##952eb4); /* Unused */
     --gold: #CE9918; /* Main Gold - VIP */
     --gold0: #EDB01A; /* Light Gold - Used for hover effects, etc */
     --gold1: linear-gradient(45deg, #b68814, #fac422); /* Unused */
