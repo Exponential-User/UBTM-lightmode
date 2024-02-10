@@ -3,7 +3,7 @@ A mod made for a web game, Included with this mod is JavaScript, CSS and Payload
 
 * This mod is unofficial
 
-<h1>Welcome to the Blocktank mod (Light Mode)</h1>
+<h1>Welcome to the Unoffical Blocktank mod (UBTM) (Light Mode)</h1>
 <img src="https://blocktanks.net/assets/Tank%20Icon.png" alt="logo" width="100"/>
 
 ------------
@@ -19,11 +19,9 @@ These are just Changes, There are something special like the shadows and transti
 
 ## If the Owner of Blocktanks or Karate Fox Studios Does not want this:
 DM me on discord: exponentialuser (#4457)
-So i can take the mod off of github.
+So i can take this mod off of github.
 
-# IMPORTANT!! : This only works on .Net not .io
-* I'll make it work, But I'll focus on this for now, [Bloacktanks.net](https://blocktanks.io "Blocktanks.net")
-* I'll make a separate Repo for the .io soon or later, I don't know but we'll see.
+# IMPORTANT!! : This only works on .Net not .io, Unless you try to make it work. (Which might be very easy :D)
 
 > The Ratings are just my Opinions, You can rate it whetever you want. 
 
