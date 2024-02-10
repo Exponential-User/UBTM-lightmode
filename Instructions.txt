@@ -1,10 +1,17 @@
+Tested browsers: Opera(GX) and Chrome.
 How to insert with DevTools.
 
+
 1. open DevTools with F12 or ctrl+shift+i.
+
 2. select Source tab then select Override tab, If the Override tab isn't there click on the two right arrows >>
-3. Select "Select folders for overrides" Then click on Light-mode
+
+3. Select "Select folders for overrides" Then click on Light-mode in UBTM-lightmode.
+
 4. And you're done, Have fun with the mod and also keep it updated too so you wont encounter Errors/Warns in the console.
+
+
 
 If you have the latest version and still encounter errors/warns, Then post an issue on the issues tab.
 
-If you don't see the text changed then refresh with ctrl+r, F5 or click on the rotated arrow.
+If you don't see the text changed then refresh with ctrl+r, F5 or click on the rotating arrow.
