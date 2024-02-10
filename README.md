@@ -2,6 +2,7 @@
 A mod made for a web game, Included with this mod is JavaScript, CSS and Payload/CTF image changes.
 
 * This mod is unofficial
+* The browsers that i tested on: Opera(GX) and Chrome.
 
 <h1>Welcome to the Unoffical Blocktank mod (UBTM) (Light Mode)</h1>
 <img src="https://blocktanks.net/assets/Tank%20Icon.png" alt="logo" width="100"/>
