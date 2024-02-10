@@ -1067,6 +1067,7 @@ td{
     z-index:12;
     display:none;
     text-align:center;
+    filter: drop-shadow(2px 2px 10px #666) drop-shadow(-2px -2px 10px #666);
 }
 #announcement, #mailingList, #messagePrompt #messagePromptInner {
     background:#eee;
