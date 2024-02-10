@@ -113,9 +113,7 @@ button:disabled {
     background: var(--blue, #455ad3);
     filter:drop-shadow(1px 1px 5px #4154c6) drop-shadow(-1px -1px 10px #4154c6);
 }
-.selectedTab:hover{
-    
-}
+/*.selectedTab:hover{}*/
 
 #signup-prompt button:focus,#forgot-prompt button:focus,#settings button:focus, #login-prompt button:focus, #appearanceChanger button:focus{
     opacity:0.5;
