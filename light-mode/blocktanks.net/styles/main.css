@@ -665,9 +665,15 @@ td{
     display:none;
 	filter:none;
 }
+#titleScreen #accountInfo-events.unselectedTab:hover {
+    filter:drop-shadow(0.9px 0.9px 4px #ccc) drop-shadow(-0.9px -0.9px 9px #ccc);
+}
 #titleScreen #accountTabs-missions  {
     display:none;
 	filter:none;
+}
+#titleScreen #accountTabs-missions.unselectedTab:hover {
+    filter:drop-shadow(0.9px 0.9px 4px #ccc) drop-shadow(-0.9px -0.9px 9px #ccc);
 }
 #titleScreen #accountInfo-stats {
     display:none;
@@ -1067,7 +1073,7 @@ td{
     z-index:12;
     display:none;
     text-align:center;
-    filter: drop-shadow(2px 2px 10px #666) drop-shadow(-2px -2px 10px #666);
+	filter: drop-shadow(2px 2px 10px #666) drop-shadow(-2px -2px 10px #666);
 }
 #announcement, #mailingList, #messagePrompt #messagePromptInner {
     background:#eee;
