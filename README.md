@@ -22,7 +22,7 @@ These are just Changes, There are something special like the shadows and transti
 DM me on discord: exponentialuser (#4457)
 So i can take this mod off of github.
 
-### This only works on .Net not .io, Unless you try to make it work. (Which might be very easy :D)
+### This only works on .Net not .io, I'll make a .io if you don't want to change it to .io.
 
 > The Ratings are just my Opinions, You can rate it whetever you want. 
 
