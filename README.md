@@ -1,30 +1,30 @@
 # UBTM-lightmode
-A mod made for a web game, Included with this mod is JavaScript, CSS and Payload/CTF image changes.
+A mod made for a web game, Included with this mod are JavaScript, CSS, and Payload/CTF image changes.
 
 * This mod is unofficial
-* The browsers that i tested on: Opera(GX) and Chrome.
+* The browsers that i tested on: Opera(GX) and Chrome. (Is Opera made from the Chromium project?)
 
-<h1>Welcome to the Unoffical Blocktank mod (UBTM) (Light Mode)</h1>
+<h1>Welcome to the Unofficial Blocktank mod (UBTM) (Light Mode)</h1>
 <img src="https://blocktanks.net/assets/Tank%20Icon.png" alt="logo" width="100"/>
 
 ------------
 
 If you want to insert it, Follow the instructions included with the file named **`Instructions.txt`**
 
-These are just Changes, There are something special like the shadows and transtions.
+These are just Changes, There is something special like the shadows and transitions.
 
 
-- The Dark Mode mod is buggy, I'll find a fix for it soon or later. (Dark Mode is only for VIP members of blacktanks)
+- The Dark Mode mod is buggy, I'll find a fix for it soon or later. (Dark Mode is only for VIP members of Blacktanks)
 
 ---
 
 ## If the Owner of Blocktanks or Karate Fox Studios Does not want this:
 DM me on discord: exponentialuser (#4457)
-So i can take this mod off of github.
+So I can take this mod off of github.
 
-### This only works on .Net not .io, I'll make a .io if you don't want to change it to .io.
+### This only works on .Net, not .io, I'll make a .io if you don't want to change it to .io.
 
-> The Ratings are just my Opinions, You can rate it whetever you want. 
+> The Ratings are just my Opinions, You can rate them whatever you want. 
 
 | Changes                           | Added                          | Ratings |
 | --------------------------------- |:------------------------------:| -------:|
