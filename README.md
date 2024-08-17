@@ -4,7 +4,7 @@ A mod made for a web game, Included with this mod are JavaScript, CSS, and Paylo
 * This mod is unofficial
 * The browsers that i tested on: Opera(GX) and Chrome. (Is Opera made from the Chromium project?)
 
-<h1>Welcome to the Unofficial Blocktank mod (UBTM) (Light Mode)</h1>
+<h1>Welcome to the Unofficial Blocktanks mod (UBTM) (Light Mode)</h1>
 <img src="https://blocktanks.net/assets/Tank%20Icon.png" alt="logo" width="100"/>
 
 ------------
