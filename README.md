@@ -1,3 +1,5 @@
+# This mod is now unsupported, As I am creating a new one and this one is broken
+
 # UBTM-lightmode
 A mod made for a web game, Included with this mod are JavaScript, CSS, and Payload/CTF image changes.
 
